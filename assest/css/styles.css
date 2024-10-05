@@ -1,0 +1,158 @@
+*{
+    align-items: center;
+    justify-content: center;
+}
+span{
+    font-weight: 450;
+        color: aliceblue;
+        margin: auto;
+        text-align: right;
+    }
+    i{
+        padding: 1px;
+        
+    }
+    header{
+       background-color: rgba(0, 0, 0, 0.071);
+       height: 30px;
+       border-radius: 40px;
+    }
+.theme{
+background-color: rgb(26, 27, 27);
+border: 2px solid rgb(131, 141, 171);
+   box-shadow: 0 10px 10px -5px;
+   border-radius: 40px;
+   margin: auto;
+   width: 20%;
+   margin-top: 20px;
+   position: relative;
+  
+}
+.form-group input{
+    height: 50px;
+    pointer-events:none;
+    background-color: rgb(26, 27, 27);
+    border: #202124;
+    color: aliceblue;
+    text-align: right;
+    font-weight: 300;
+    font-size: 55px;
+}
+.form-group input:hover
+{
+    border-top: 1px solid rgba(0, 0, 0, 0.145);
+    border-right: 1px solid rgba(0, 0, 0, 0.145);
+    
+}
+
+.buttonstyle{
+    background: #b3b3b3;
+    color:black;
+    border: 1px solid #dadce000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 5px;
+    
+}
+.buttonstyle2{
+    background: #ff8d0b;
+    border: 1px solid #dadce000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 25px;
+    color: white;
+    
+}
+.buttonstyle3{
+    background: #313131;
+    color:white;
+    border: 1px solid #dadce000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 5px;
+}
+.camera{
+    width: 10px;
+    height: 10px;
+    background-color: rgba(195, 195, 195, 0.122);
+    border-radius: 50%;
+}
+.notch{
+    width: 40px;
+    height: 8px;
+    background-color: rgba(0, 0, 0, 0.256);
+    border-radius: 50px;
+    margin-right: 2px;
+}
+.footer{
+    background-color:#dadce0 ;
+    width: 100px;
+    height: 3px;
+    margin: auto;
+    border-radius: 50px;
+    margin-bottom: 15px;
+    margin-top: 25px;
+
+
+}
+.silentbutton{
+    position: absolute;
+    height: 20px;
+    width: 5px;
+    border-radius: 15px;
+    background-color:rgb(131, 141, 171);
+    left: -5px;
+    top: 90px;
+}
+.leftbutton{
+    position: absolute;
+    height: 40px;
+    width: 5px;
+    border-radius: 15px;
+    background-color:rgb(131, 141, 171);
+    left: -5px;
+    top: 125px;
+}
+.leftbutton2{
+    position: absolute;
+    height: 40px;
+    width: 5px;
+    border-radius: 15px;
+    background-color:rgb(131, 141, 171);
+    left: -5px;
+    top: 175px;
+}
+.rightbutton{
+    position: absolute;
+    height: 75px;
+    width: 5px;
+    border-radius: 15px;
+    background-color:rgb(131, 141, 171);
+    right: -5px;
+    top: 125px;
+}
+@media screen and (max-width: 480px){
+    .theme{
+        width: 90%;
+    }
+}
